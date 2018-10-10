@@ -1,0 +1,66 @@
+.section-8{
+    #carouselExampleIndicators{
+        background-color: #020202; 
+        padding: $paddingSection;
+    }
+    .carousel-indicators li{
+        bottom: 30px;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        background-color: white;
+        margin: 0 5px;
+        &.active{
+            background-color: transparent;
+            border: solid 1px white;
+        }
+    }
+    .carousel-caption{
+        right: auto;
+        left: auto;
+        bottom: auto;
+        margin: auto;
+        width: 60%;
+    }
+    [class|="icon"]{
+        font-size: 32px;
+    }
+    h3{
+        text-transform: uppercase;
+        color: white;
+        margin: 25px 0 50px;
+    }
+    p{
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    footer{
+        font-size: 11px;
+        text-transform: uppercase;
+        color: #757575;
+    }
+    [class|="carousel-control"]{
+        bottom: auto;
+        top: 50%;
+        transform: translateY(-50%);
+        opacity: 1;
+        border: 80px solid transparent;
+    }
+    .carousel-control-next{
+        border-right: 80px solid white;
+    }
+    .carousel-control-prev{
+        border-left: 80px solid white;
+    }
+    .fa{
+        position: absolute;
+        color: black;
+        font-size: 20px;
+    }
+    .fa-chevron-left{
+        left: -60px;
+    }
+    .fa-chevron-right{
+        right: -60px;
+    }
+}

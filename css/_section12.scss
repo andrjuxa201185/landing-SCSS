@@ -1,0 +1,22 @@
+.section-12{
+    overflow: hidden;
+    .overlay{
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.9);
+        transition: all .5s;
+    }
+    &:hover .overlay{
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    h3{
+        color: white;
+        margin-top: 30px;
+    }
+    .arrow-down .fa-map-marker{
+        transform: rotate(135deg);
+    }
+}

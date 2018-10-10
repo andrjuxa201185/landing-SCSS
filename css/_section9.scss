@@ -1,0 +1,56 @@
+.section-9{
+    padding: $paddingSection;
+    .row:first-child{
+        margin-bottom: 80px;
+        a{
+            font-size: 11px;
+            letter-spacing: 5px;
+            font-family: 'dosisregular';
+            color: #999999;
+        }
+    }
+    img{
+        width: 100%;
+    }
+    .img-color{
+        top:0;
+        z-index: 1;
+        opacity: 0;
+        transition: all .5s;
+    }
+    .img-wrapper:hover .img-color{
+        z-index: 1;
+        opacity: 1;
+    }
+    .item{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        h4{
+            font-size: 15px;
+            color: $color7;
+            letter-spacing: 5px;
+            margin: 30px 0 15px;
+            flex-grow: 1;
+        }
+        h5{
+            color: $color9;
+            letter-spacing: 5px;
+            font-size: 11px;
+            margin-bottom: 30px;
+        }
+        p{
+            font-size: 15px;
+            color: $color7;
+            line-height: 1.7;
+            margin-bottom: 30px;
+        }
+    }
+    .btn{
+        color: #777777;
+        background-color: #e5e5e5;
+        border: none;
+        font-size: 11px;
+    }
+}

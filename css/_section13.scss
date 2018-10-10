@@ -1,0 +1,30 @@
+.section-13{
+    background-color: #f8f8f8;
+    padding: 140px 0 60px 0;
+    border-bottom: solid 1px #515151;
+    .wrapper-rhombus{
+        margin: 5px;
+        i{
+            color: black;
+        }
+    }
+    .rhombus{
+        background-color: transparent;
+        border: solid 1px $color1;
+    }
+    .img{
+        margin-bottom: 25px;
+    }
+    .social{
+        margin-bottom: 105px;
+    }
+    h3{
+        font-size: 12px;
+        letter-spacing: 5px;
+        margin-bottom: 15px;
+    }
+    p{
+        font-size:11px;
+        color: $color9;
+    }
+}
