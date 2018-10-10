@@ -2,6 +2,12 @@ h1, h2, h3{
     font-family: 'dosisregular';
     color: #f6f6f6;
 }
+p,
+span,
+li,
+a{
+    font-family: 'open_sanslight';
+}
 h3{
     color: $color1;
     font-size: 18px;
