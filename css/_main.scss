@@ -2,3 +2,24 @@ h1, h2, h3{
     font-family: 'dosisregular';
     color: #f6f6f6;
 }
+h3{
+    color: $color1;
+    font-size: 18px;
+    letter-spacing: 10px;
+}
+.m-bot-80{
+    margin-bottom: 80px;
+}
+.articles{
+    padding-bottom: 105px;
+    color: $color7;
+    .col-lg-4 > p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .blockquote p{
+        font-size: 24px;
+        line-height: 35px;
+        margin-bottom: 30px;
+    }
+}
