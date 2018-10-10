@@ -9,7 +9,7 @@ a{
     font-family: 'open_sanslight';
 }
 /* ------------------------------------ */
-header{
+#header{
     position: absolute;
     width: 100%;
     top: 0%;
