@@ -1,0 +1,52 @@
+.section-5{
+    padding: 140px 0 0 0;
+    h3{
+        font-weight: bold;
+        color: $color1;
+        margin-bottom: 80px;
+    }
+    .description{
+        color: $color7;
+        font-size: 15px;
+        margin-bottom: 85px;
+    }
+    #myTabPortfolio{
+        .nav-item, .nav-tabs{
+            margin-bottom: 50px;
+            padding: 0 35px;
+        }
+        .nav-link{
+            letter-spacing: 6px;
+            text-indent: 6px;
+            border: 0;
+            color: $color8;
+            padding: 0;
+            text-transform: uppercase;
+            font-size: 13px;
+            &.active{
+                color: $color1;
+            }
+        }
+    }
+    #tabPortfolio {
+        .portfolio-content{
+            position: relative;
+            padding: 0;
+            outline: solid 7px white;
+            overflow: hidden;
+            img{
+                width: 100%;
+                transform: scale(1.03);
+                &:last-child{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    display: none;
+                }
+            }
+            &:hover img:last-child{
+                display: block;
+            }
+        }
+    }
+}

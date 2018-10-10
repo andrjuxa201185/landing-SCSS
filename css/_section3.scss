@@ -1,0 +1,38 @@
+.section-3{
+    padding: $paddingSection;
+    .nav-item{ 
+        h5{
+            font-size: 14px;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+        }
+        .icon{
+            font-size: 48px;
+            margin-bottom: 35px;
+        }
+    }
+    .nav-tabs{
+        border: none;
+        margin-bottom: 80px;
+    }
+    .nav-link{
+        @extend .nav-tabs;
+        color: $color8;
+        padding: 0;
+        &.active{
+            color: $color1;
+        }
+    }
+    .nav-item{
+        padding: 0;
+    }
+    .title{
+        margin-bottom: 125px;
+    }
+    @media screen and (min-width: 992px){
+        .nav-item {
+            flex: 0 0 20%;
+            min-width: 20%;
+        }
+    }
+}
