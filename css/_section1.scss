@@ -6,4 +6,29 @@
         size: cover;
         position: bottom;
     }
+    h1{
+        font-size: 30px;
+        letter-spacing: 50px;
+        margin-bottom: 50px;
+        text: {
+            indent: 50px;
+            align: center;
+        }
+    }
+    p{
+        font-size: 19px;
+        color: #fefefe;
+    }
+    .arrow-down{
+        width: 40px;
+        height: 40px;
+        background-color: $white;
+        border-radius: 5px;
+        bottom: 30px;
+        transform: rotate(-135deg);
+        .fa-chevron-down{
+            transform: rotate(135deg) translateY(7px);
+            cursor: pointer;
+        }
+    }
 }
